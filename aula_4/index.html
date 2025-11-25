@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa Culturama</title>
+</head>
+<body>
+    <header>
+        <h1>Pesquisa Online</h1>
+    </header>
+    <section>
+        <form action="" method="get">
+            <fieldset> <!--INDICA AO NAVEGADOR QUE ISSO É UMA SESSÃO DE FORM-->
+                <!-- DADOS PESSOAIS: -->
+                <legend>Dados Pessoais</legend>
+                <label for="userName">Nome</label> <!--label(etiqueta) for(para) o campo "userName"-->
+                <input type="text" name="userName" required> <!--userName=text no method get (url)-->
+                <br>
+                <label for="userAge">Idade</label>
+                <input type="number" name="userAge" min="12" max="100" required>
+                <br>
+                <label for="birthDate">Data de Nascimento</label>
+                <input type="date" name="birthDate">
+                <br>
+                <label for="userEmail">Email</label>
+                <input type="email" name="userEmail" required>
+                <br>
+                <label for="userPhoneNumber">Telefone</label>
+                <input type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + TEL">
+                <br>
+                <label for="userImage">Upload de foto</label>
+                <input type="file" accept="image/*" name="userImage">
+                <br>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
