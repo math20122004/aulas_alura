@@ -31,8 +31,6 @@
                 <br>
                 <label for="image">Upload de foto</label>
                 <input id="image" type="file" accept="image/*" name="userImage">
-                <br>
-                <button type="submit">Enviar</button>
             </fieldset>
 
             <fieldset>
@@ -140,6 +138,19 @@
                 <label for="comment">Escreva a sua opinião:</label>
                 <textarea name="userComment" id="comment" placeholder="Digite aqui..."></textarea>
             </fieldset>
+
+            <fieldset>
+                <legend>Confirmações</legend>
+
+                <input type="checkbox" name="userLgpd" id="userLgpdTerm" value="accept" required>
+                <label for="userLgpdTerm">Eu aceito participar da equipe</label>
+
+                <input type="checkbox" name="userGetResult" id="getResult" value="accept">
+                <label for="getResult">Desejo receber o resultado por e-mail</label>
+            </fieldset>
+
+                <br>
+                <button type="submit">Enviar</button>
         </form>
     </section>
 </body>
