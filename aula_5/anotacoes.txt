@@ -1,0 +1,10 @@
+MEDIDAS FIXAS = NÃO SE ADAPTAM (px, cm...)
+MEDIDAS RELATIVAS = PROPORCIONAIS, SE ADAPTAM (%, em, rem, vh, vw...)
+
+UNIDADE '%' PORCENTAGEM: Relativo ao elemento pai. Uso comum em larguras fluídas, margens e paddings.
+
+UNIDADE 'EM': Relativo ao tamanho de fonte do elemento pai. Uso comum em quando precisamos escalar o tamanho de fonte dentro de um contexto específico. ATENÇÃO: EFEITO CASCATA, ACUMULA O TAMANHO DE CADA PAI.
+
+UNIDADE 'REM': Relativo ao tamanho de fonte do root(html). Uso comum em padronizar tipografia e espaçamentos.
+
+UNIDADE 'VW' E 'VH': Relativo ao viewport (tela visível). Uso comum em banners fullscreen, slides, layout hero (quando todo o conteúdo precisa ficar visível antes do scroll). ATENÇÃO: NO MOBILE GERA ROLAGEM EXTRA
