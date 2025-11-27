@@ -5,6 +5,7 @@ header {
   justify-content: space-between; /*Faz com os filhos fiquem um de cada lado da tela*/
   align-items: flex-start; /*Alinha filhos. Flex para o eixo principal(no nosso:row) e start para o contrário */
   padding: 38px 48px;
+  position: relative;
 }
 
 .logo {
@@ -19,6 +20,7 @@ header {
 
 input[type="checkbox"]:checked ~ nav {
     display: block;
+    position: absolute;
 }
 
 nav {

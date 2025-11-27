@@ -28,4 +28,9 @@ Já a propriedade align-items faz o mesmo, mas verticalmente.
 
 A propriedade align-content alinha as linhas no eixo transversal (verticalmente) quando há múltiplas linhas.
 
-~ = Sinal de IRMANDADE NO CSS. Ele pega o filho do elemento selecionado
+~ = Sinal de IRMANDADE NO CSS. Ele pega o filho do elemento selecionado.
+
+Todos os elementos do HTML começam com um posicionamento chamado estático, conhecido como position: static. Esse posicionamento faz com que o navegador controle a exibição dos elementos, apresentando-os em fila, na ordem em que são declarados no HTML.
+
+Relativo: O que é o posicionamento relativo? Ele mantém o elemento na fila de exibição, mas permite controlar seu posicionamento em relação ao topo e à esquerda. Assim, podemos movê-lo mais para a direita ou mais para baixo, ou até mesmo para cima e para a esquerda, usando valores negativos, embora isso não seja o ideal.
+Para ter controle total sobre seu posicionamento, usaremos position: absolute. Com isso, o ponto de referência do elemento será seu elemento pai que tenha alguma declaração de position. Se não houver, ele fará referência ao body, que é position: relative.
