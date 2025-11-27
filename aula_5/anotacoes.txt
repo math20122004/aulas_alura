@@ -8,3 +8,10 @@ UNIDADE 'EM': Relativo ao tamanho de fonte do elemento pai. Uso comum em quando 
 UNIDADE 'REM': Relativo ao tamanho de fonte do root(html). Uso comum em padronizar tipografia e espaçamentos.
 
 UNIDADE 'VW' E 'VH': Relativo ao viewport (tela visível). Uso comum em banners fullscreen, slides, layout hero (quando todo o conteúdo precisa ficar visível antes do scroll). ATENÇÃO: NO MOBILE GERA ROLAGEM EXTRA
+
+Utilizamos um breakpoint de 320 pixels para celulares pequenos,
+768 pixels para tablets,
+1024 pixels para laptops e
+1440 pixels para desktops grandes. 
+
+Sempre começamos a desenvolver para celular primeiro (mobile first) porque usamos só a informações necessárias.
