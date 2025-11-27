@@ -15,3 +15,5 @@ Utilizamos um breakpoint de 320 pixels para celulares pequenos,
 1440 pixels para desktops grandes. 
 
 Sempre começamos a desenvolver para celular primeiro (mobile first) porque usamos só a informações necessárias.
+
+Separar o CSS em folhas de estilos para cada parte do código, depois unir elas no style.css com import.
