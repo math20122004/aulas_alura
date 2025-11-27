@@ -17,3 +17,5 @@ Utilizamos um breakpoint de 320 pixels para celulares pequenos,
 Sempre começamos a desenvolver para celular primeiro (mobile first) porque usamos só a informações necessárias.
 
 Separar o CSS em folhas de estilos para cada parte do código, depois unir elas no style.css com import.
+
+align-items: flex-start; é uma propriedade CSS que alinha os itens de um container flexível (flex container) no início do eixo transversal (cross-axis). Isso significa que, em um layout com direção padrão (como flex-direction: row;), os itens serão empilhados no topo do container. 
