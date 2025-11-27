@@ -1,22 +1,26 @@
 header {
-    background-color: var(--background-tertiary-color);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 38px 48px;
+  background-color: var(--background-tertiary-color);
+  display: flex; /*Alinha os elementos filhos dentro*/
+  flex-direction: row; /*Diz a direção dos elementos filhos*/
+  justify-content: space-between; /*Faz com os filhos fiquem um de cada lado da tela*/
+  align-items: flex-start; /*Alinha filhos. Flex para o eixo principal(no nosso:row) e start para o contrário */
+  padding: 38px 48px;
 }
 
 .logo {
-    display: inline-block;
-    width: 68px;
-    height: 64px;
+  display: inline-block;
+  width: 68px;
+  height: 64px;
 }
 
 .navigation-menu {
-    margin-top: 24px;
+  margin-top: 24px;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    display: block;
 }
 
 nav {
-    display: none;
+  display: none;
 }

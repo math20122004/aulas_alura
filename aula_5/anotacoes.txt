@@ -19,3 +19,13 @@ Sempre começamos a desenvolver para celular primeiro (mobile first) porque usam
 Separar o CSS em folhas de estilos para cada parte do código, depois unir elas no style.css com import.
 
 align-items: flex-start; é uma propriedade CSS que alinha os itens de um container flexível (flex container) no início do eixo transversal (cross-axis). Isso significa que, em um layout com direção padrão (como flex-direction: row;), os itens serão empilhados no topo do container. 
+
+A propriedade flex-wrap (flex-direction) controla a quebra de linha dos elementos. Os valores possíveis são: nowrap (padrão, todos os itens em uma só linha), wrap (itens quebram em múltiplas linhas de cima para baixo) e wrap-reverse (itens quebram em múltiplas linhas de baixo para cima).
+
+A propriedade justify-content alinha os itens ao longo do eixo principal (horizontal).
+
+Já a propriedade align-items faz o mesmo, mas verticalmente.
+
+A propriedade align-content alinha as linhas no eixo transversal (verticalmente) quando há múltiplas linhas.
+
+~ = Sinal de IRMANDADE NO CSS. Ele pega o filho do elemento selecionado
