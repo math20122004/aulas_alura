@@ -1,0 +1,35 @@
+.grid-layout{
+    display: grid; --> GRID: Nível Bloco | INLINE-GRID: Nível Linha
+    grid-template-column: 200px, 1fr; --> Estou falando que a grade tera 2 colunas (pq tem 2 informações de tamanho), e uma vai ser fixa (200px) e a outra o restante do tamanho (1fr (fr = fração)). Se eu colocar mais um número terá 3 colunas, ex: 200px, 1fr, 20px.
+    grid-template-row: auto, 1fr, auto; --> Tenho 3 linhas
+    grid-template-areas: "header header"
+                         "aside main"
+                         "footer footer"; --> Na primeira linha vai ficar na primeira coluna header e na segunda coluna header. Na segunda linha vai ficar na primeira
+                                              coluna aside e na segunda coluna main. Na terceira linha vai ficar na minha coluna footer e na segunda coluna footer.
+   height: 100vh;
+   column-gap: 10px;
+   row-gap: 5px;
+   justify-items: stretch; --> Alinha os itens da grade ao longo da linha --> stretch: ocupa a célula toda
+   align-items: start; --> Alinha os itens da grade ao longo da colina
+
+   //PROPRIEDADES DOS FILHOS
+   .item-a {
+        grid-area: header;
+    }
+
+    .container {
+    grid-template-areas: 
+        "header header header";
+    }
+
+    .item-a { --> DETERMINAR A POSIÇÃO DE UM ITEM DENTRO DA GRADE
+        grid-column-start: 2;
+        grid-column-end: five;
+        grid-row-start: row1-start;
+        grid-row-end: 3;
+        align-self: center; --> Alinha um filho dentro de uma celular horizontalmente
+    }
+
+    
+}
+
